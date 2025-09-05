@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin-block: 1.5em;
+}
+
+.class {
+    text-decoration: underline;
+}
+
+#id {
+    font-family: monospace;
+}
+
+li:has(a) {
+    display: flex;
+}
+
+header h1 {
+
+}
+
+header > h1 {
+    
+}
+
+h1 ~ p {
+    
+}
+
+h1 + p {
+    
+}
+
+h1, p {
+    
+}

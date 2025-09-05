@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin-block: 1.5em;
+}
+
+.class {
+    text-decoration: underline;
+}
+
+#id {
+    font-family: monospace;
+}
+
+li:has(a) {
+    display: flex;
+}
+
+header h1 {
+
+}
+
+header > h1 {
+    
+}
+
+h1 ~ p {
+    
+}
+
+h1 + p {
+    
+}
+
+h1, p {
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.text-name,
+.text-description {
+    flex: 1;
+}
+
+.imagen img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+

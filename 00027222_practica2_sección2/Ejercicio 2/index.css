@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin-block: 1.5em;
+}
+
+.class {
+    text-decoration: underline;
+}
+
+#id {
+    font-family: monospace;
+}
+
+li:has(a) {
+    display: flex;
+}
+
+header h1 {
+
+}
+
+header > h1 {
+    
+}
+
+h1 ~ p {
+    
+}
+
+h1 + p {
+    
+}
+
+h1, p {
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 10px;
+    column-gap: 20px;
+
+}
+
+.item {
+    flex-grow: 1;
+}
+
+.item-2 {
+    flex-grow: 2;
+}

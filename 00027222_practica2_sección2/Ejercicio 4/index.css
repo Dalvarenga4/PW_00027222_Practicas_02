@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin-block: 1.5em;
+}
+
+.class {
+    text-decoration: underline;
+}
+
+#id {
+    font-family: monospace;
+}
+
+li:has(a) {
+    display: flex;
+}
+
+header h1 {
+
+}
+
+header > h1 {
+    
+}
+
+h1 ~ p {
+    
+}
+
+h1 + p {
+    
+}
+
+h1, p {
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr minmax(10px, 1fr) repeat(5, 1fr) 50px auto 100px 1fr;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+}
