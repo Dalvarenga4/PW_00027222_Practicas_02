@@ -1,0 +1,24 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --pink: #E12AFB;
+}
+
+.box {
+    display: flex;
+    background-color: var(--pink);
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box div {
+    margin: 10px 5px;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: var(--blue);
+    width: 33%;
+}
+
+.box div:first-child {
+    width: 64%;
+}
